@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ff8b78513f38464d9e039dbed1c7fa0e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ff8b78513f38464d9e039dbed1c7fa0e" ></div>
+        
+</body>
+<script>    
+    
+            var map_ff8b78513f38464d9e039dbed1c7fa0e = L.map(
+                "map_ff8b78513f38464d9e039dbed1c7fa0e",
+                {
+                    center: [33.8547, 35.8623],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74edd32f6570418e8baf17a7111ce10a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ff8b78513f38464d9e039dbed1c7fa0e);
+        
+    
+            var feature_group_419f151c6cf14c8bb2a433afdf063549 = L.featureGroup(
+                {}
+            ).addTo(map_ff8b78513f38464d9e039dbed1c7fa0e);
+        
+    
+            var circle_marker_194a815eb4f749cc97b94b6d91174661 = L.circleMarker(
+                [33.8463, 35.902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_784fb721a9bd47b49d634a050504c5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38522d07933f4081b177a8d1487f01c1 = $(`<div id="html_38522d07933f4081b177a8d1487f01c1" style="width: 100.0%; height: 100.0%;">christian12 200.0 coins</div>`)[0];
+            popup_784fb721a9bd47b49d634a050504c5c7.setContent(html_38522d07933f4081b177a8d1487f01c1);
+        
+
+        circle_marker_194a815eb4f749cc97b94b6d91174661.bindPopup(popup_784fb721a9bd47b49d634a050504c5c7)
+        ;
+
+        
+    
+    
+            var circle_marker_8adc6e7223084388bcf1244199afa3ba = L.circleMarker(
+                [33.850986, 35.924692],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_8a717877a3254d508ef96df4e23a1134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3579280ae3e84486a9f24648cdc28032 = $(`<div id="html_3579280ae3e84486a9f24648cdc28032" style="width: 100.0%; height: 100.0%;">Mhammad 110.0 coins</div>`)[0];
+            popup_8a717877a3254d508ef96df4e23a1134.setContent(html_3579280ae3e84486a9f24648cdc28032);
+        
+
+        circle_marker_8adc6e7223084388bcf1244199afa3ba.bindPopup(popup_8a717877a3254d508ef96df4e23a1134)
+        ;
+
+        
+    
+    
+            var circle_marker_acde979fa80e4159aba21885ac3f9f8a = L.circleMarker(
+                [33.8289216, 35.8968227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_909a35b842134d9ba88d93e2a8f207fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52fa282402de4724b95b8c6afdc96949 = $(`<div id="html_52fa282402de4724b95b8c6afdc96949" style="width: 100.0%; height: 100.0%;">Elie 236.0 coins</div>`)[0];
+            popup_909a35b842134d9ba88d93e2a8f207fd.setContent(html_52fa282402de4724b95b8c6afdc96949);
+        
+
+        circle_marker_acde979fa80e4159aba21885ac3f9f8a.bindPopup(popup_909a35b842134d9ba88d93e2a8f207fd)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2e38ff1a68487ca9772cd53e41c751 = L.circleMarker(
+                [33.851057, 35.924671],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_706288196e8e4d8f93b8b8eab1c4a438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa994794c3f9496e837d9ceb2ed21379 = $(`<div id="html_aa994794c3f9496e837d9ceb2ed21379" style="width: 100.0%; height: 100.0%;">hadiaboudaya 51.0 coins</div>`)[0];
+            popup_706288196e8e4d8f93b8b8eab1c4a438.setContent(html_aa994794c3f9496e837d9ceb2ed21379);
+        
+
+        circle_marker_0d2e38ff1a68487ca9772cd53e41c751.bindPopup(popup_706288196e8e4d8f93b8b8eab1c4a438)
+        ;
+
+        
+    
+    
+            var circle_marker_65505c849b3f46f79dce218ff5f5c8fa = L.circleMarker(
+                [33.8843248, 35.8751112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_37ac8b15c79948f29ac1983d524c0c70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207746d8e2684145a395f64269593d0c = $(`<div id="html_207746d8e2684145a395f64269593d0c" style="width: 100.0%; height: 100.0%;">Elio_Mezz 1000.0 coins</div>`)[0];
+            popup_37ac8b15c79948f29ac1983d524c0c70.setContent(html_207746d8e2684145a395f64269593d0c);
+        
+
+        circle_marker_65505c849b3f46f79dce218ff5f5c8fa.bindPopup(popup_37ac8b15c79948f29ac1983d524c0c70)
+        ;
+
+        
+    
+    
+            var circle_marker_dae5be4dfa65412e9b747234024c98cc = L.circleMarker(
+                [33.890712, 35.9906209],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_d3ec9a2fadb047ad857c9c5761e32789 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51bd2cee016a4f3d92f178cbfc9880d1 = $(`<div id="html_51bd2cee016a4f3d92f178cbfc9880d1" style="width: 100.0%; height: 100.0%;">Myra 161.0 coins</div>`)[0];
+            popup_d3ec9a2fadb047ad857c9c5761e32789.setContent(html_51bd2cee016a4f3d92f178cbfc9880d1);
+        
+
+        circle_marker_dae5be4dfa65412e9b747234024c98cc.bindPopup(popup_d3ec9a2fadb047ad857c9c5761e32789)
+        ;
+
+        
+    
+    
+            var circle_marker_7783c2656810499d8d2a8e0f0f8568c7 = L.circleMarker(
+                [33.8954719, 35.9883299],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_b05ad22844844af289a759df54b5a411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba668c06a4254dfc91cb95926a3bca8b = $(`<div id="html_ba668c06a4254dfc91cb95926a3bca8b" style="width: 100.0%; height: 100.0%;">Majd 120.0 coins</div>`)[0];
+            popup_b05ad22844844af289a759df54b5a411.setContent(html_ba668c06a4254dfc91cb95926a3bca8b);
+        
+
+        circle_marker_7783c2656810499d8d2a8e0f0f8568c7.bindPopup(popup_b05ad22844844af289a759df54b5a411)
+        ;
+
+        
+    
+    
+            var circle_marker_8bf75cc87aa6408c9563155527cb26d9 = L.circleMarker(
+                [33.8917401, 35.9878267],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_686a940aa6de4f1fb5b3869ba6c6db6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476702d98fa14f44a61a2ff65e1fd1bb = $(`<div id="html_476702d98fa14f44a61a2ff65e1fd1bb" style="width: 100.0%; height: 100.0%;">hani 5000.0 coins</div>`)[0];
+            popup_686a940aa6de4f1fb5b3869ba6c6db6f.setContent(html_476702d98fa14f44a61a2ff65e1fd1bb);
+        
+
+        circle_marker_8bf75cc87aa6408c9563155527cb26d9.bindPopup(popup_686a940aa6de4f1fb5b3869ba6c6db6f)
+        ;
+
+        
+    
+    
+            var circle_marker_b69e1f558e0b4d388c6243b542744c12 = L.circleMarker(
+                [33.912595, 36.0200839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_f12d8b06eb704bdb8d7b6db787761f15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1cedee2286f438fa2a9b613a229a642 = $(`<div id="html_a1cedee2286f438fa2a9b613a229a642" style="width: 100.0%; height: 100.0%;">majd haidar 95.0 coins</div>`)[0];
+            popup_f12d8b06eb704bdb8d7b6db787761f15.setContent(html_a1cedee2286f438fa2a9b613a229a642);
+        
+
+        circle_marker_b69e1f558e0b4d388c6243b542744c12.bindPopup(popup_f12d8b06eb704bdb8d7b6db787761f15)
+        ;
+
+        
+    
+    
+            var circle_marker_1234157f05f8484484170bc11f08d860 = L.circleMarker(
+                [33.8338843, 35.90235],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_d1ef70a5fd154f90a013545ff6417016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17eefbac256e499fade65adebd15f9ef = $(`<div id="html_17eefbac256e499fade65adebd15f9ef" style="width: 100.0%; height: 100.0%;">Charbel 900000.0 coins</div>`)[0];
+            popup_d1ef70a5fd154f90a013545ff6417016.setContent(html_17eefbac256e499fade65adebd15f9ef);
+        
+
+        circle_marker_1234157f05f8484484170bc11f08d860.bindPopup(popup_d1ef70a5fd154f90a013545ff6417016)
+        ;
+
+        
+    
+    
+            var circle_marker_1253efedc641409aa76a8d6121cd6a1e = L.circleMarker(
+                [33.8400094, 35.5648503],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_419f151c6cf14c8bb2a433afdf063549);
+        
+    
+        var popup_19a0ae769520431aaa86d5e58ebd45e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7e3caf1bc5d420abd2f3e9577f4ae8a = $(`<div id="html_e7e3caf1bc5d420abd2f3e9577f4ae8a" style="width: 100.0%; height: 100.0%;">Elie Dagher 110.0 coins</div>`)[0];
+            popup_19a0ae769520431aaa86d5e58ebd45e0.setContent(html_e7e3caf1bc5d420abd2f3e9577f4ae8a);
+        
+
+        circle_marker_1253efedc641409aa76a8d6121cd6a1e.bindPopup(popup_19a0ae769520431aaa86d5e58ebd45e0)
+        ;
+
+        
+    
+</script>

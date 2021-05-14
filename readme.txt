@@ -1,0 +1,2 @@
+Projet Final Informatique 3:
+Ce projet a ete fait par ABOU DAYA Hadi(190894) et GEDEON Christian(192335), veuillez executer le Python file nomme main.py apres avoir installe le file nomme Accounts.txt, le folder nomme cards contenant des images dont les noms sont importants et dont le type doit etre .png, et les modules suivants: pandas - folium - webbrowser - sys . Soyez sure d'avoir une connection internet pour avoir un acces sur toutes les fonctionnalitees du jeu de mettre les files main.py, le folder cards et le file Accounts.txt dans le meme folder.
